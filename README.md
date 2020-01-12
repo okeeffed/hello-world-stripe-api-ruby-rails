@@ -87,25 +87,3 @@ This ensures that we can send a POST request to `http://localhost:PORT/charges/c
 
 Run `rails server` to get our server up and running (defaulting to 3000), then call `http POST http://localhost:3000/charges/create amount:=1700 receipt_email=hello_rails@example.com` (using HTTPie) and we will get back our charge results sent as JSON. Hooray! README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
